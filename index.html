@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./page-flip.browser.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container" style="width: 90%; height: 90%">
+      <div class="flip-book" id="demoBookExample">
+        <div class="page page-cover page-cover-top" data-density="hard">
+          <div class="page-content">
+            <h2>BOOK TITLE</h2>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div
+              class="page-image"
+              style="background-image: url(song1-1.png)"
+            ></div>
+          </div>
+        </div>
+        <!-- PAGES .... -->
+        <div class="page">
+          <div class="page-content">
+            <div
+              class="page-image"
+              style="background-image: url(song1-2.png)"
+            ></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div
+              class="page-image"
+              style="background-image: url(song2-1.png)"
+            ></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div
+              class="page-image"
+              style="background-image: url(song2-2.png)"
+            ></div>
+          </div>
+        </div>
+        <!-- <div class="page">
+          <div class="page-content">
+            <h2 class="page-header">Page header - 16</h2>
+            <div
+              class="page-image"
+              style="background-image: url(images/html/8.jpg)"
+            ></div>
+          </div>
+        </div>
+        <div class="page page-cover page-cover-bottom" data-density="hard">
+          <div class="page-content">
+            <h2>THE END</h2>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <audio controls id="player">
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+</html>
